@@ -1,20 +1,40 @@
-# college-prediction-based-on-rank
-"A C program that predicts colleges based on rank"
-# 📘 College Prediction Based on Rank (C Language)
+# College Prediction Based on Rank
 
-This project allows students to predict eligible engineering colleges based on their **entrance exam rank** and **category**, using cutoff data.
+This project is a C language-based college prediction system designed to help students estimate potential college options based on their **entrance exam rank and category**. It provides possible institutions a candidate can target during counseling.
 
----
+## 📌 Project Overview
+- **Language**: C
+- **Semester**: 1st Year, 1st Semester
+- **Input**: Student’s entrance **rank** and **category**
+- **Output**: Predicted college(s) that match the criteria
 
-## 🛠️ Features
+## 🧠 Features
+- Accepts valid rank and category as input
+- Uses conditional logic and data structures (arrays/if-else)
+- Displays possible college options based on cut-off data
+- Simple CLI-based interaction for students
 
-- Input your **rank** and **category** (e.g., OC, BC, SC).
-- Reads **cutoff data from a CSV file** (`cutoff.csv`).
-- Predicts colleges and branches you are eligible for.
-- Written entirely in **C** (lightweight and terminal-friendly).
+## 🛠️ How It Works
+1. User enters their **rank** (e.g., 55000) and **category** (e.g., OBC).
+2. The program compares these values with a predefined dataset (hardcoded cutoffs).
+3. It outputs **one or more college names** that match the given inputs.
 
----
+## 📁 Folder Structure
+college-prediction-based-on-rank/
+│
+├── main.c # Source code file
+├── sample_output.txt # Sample run outputs (optional)
+├── README.md # This file
 
-## 📂 Project Structure
+
+## 🚀 Future Improvements
+- Add real-time rank data integration
+- Build a GUI for better interaction
+- Use file handling to import external college data
+
+## 🙋‍♀️ Author
+**Sana Tabassum**  
+B.Tech CSE (AI & ML)  
+GitHub: [sana-tabasum](https://github.com/sana-tabasum)
 
 
